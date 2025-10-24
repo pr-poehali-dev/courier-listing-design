@@ -137,7 +137,8 @@ const Index = () => {
                 Контакты
               </a>
             </nav>
-            <Button className="hidden md:inline-flex">
+            <Button variant="outline" className="hidden md:inline-flex gap-2 border-primary text-primary hover:bg-primary hover:text-white">
+              <Icon name="Plus" size={18} />
               Разместить вакансию
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">
